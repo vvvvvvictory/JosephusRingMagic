@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\CSharp\\JosephusRingMagic\\JosephusRingMagic.csproj": {}
+  },
+  "projects": {
+    "F:\\CSharp\\JosephusRingMagic\\JosephusRingMagic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\CSharp\\JosephusRingMagic\\JosephusRingMagic.csproj",
+        "projectName": "JosephusRingMagic",
+        "projectPath": "F:\\CSharp\\JosephusRingMagic\\JosephusRingMagic.csproj",
+        "packagesPath": "C:\\Users\\16202\\.nuget\\packages\\",
+        "outputPath": "F:\\CSharp\\JosephusRingMagic\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\16202\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net4.0-windows7.0"
+        ],
+        "sources": {
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "net40": {
+            "targetAlias": "net4.0-windows7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net40": {
+          "targetAlias": "net4.0-windows7.0",
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win7-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

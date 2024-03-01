@@ -1,0 +1,71 @@
+﻿<Window x:Class="JosephusRingMagic.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:JosephusRingMagic"
+        mc:Ignorable="d"
+        Title="JosephusRingMagic" MinHeight="600" MinWidth="1300" WindowStartupLocation="CenterScreen">
+  <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="AUto"></RowDefinition>
+      <RowDefinition Height="Auto"></RowDefinition>
+      <RowDefinition Height="*"></RowDefinition>
+    </Grid.RowDefinitions>
+    <TextBlock Grid.Column="0" Name="X_Desc" Margin="0 5" HorizontalAlignment="Center" FontSize="36" TextWrapping="WrapWithOverflow" Padding="10 0"
+               Foreground="RoyalBlue">
+    </TextBlock>
+    <Button Grid.Row="1" Name="X_NextStep" HorizontalAlignment="Center" Margin="0 30 0 5" Padding="20 2" FontSize="28"
+            Foreground="Teal" Content="下一步" BorderBrush="Teal" Click="NextStep_OnClick">
+      <Button.Resources>
+        <Style TargetType="{x:Type Border}">
+          <Setter Property="CornerRadius" Value="5"></Setter>
+        </Style>
+      </Button.Resources>
+    </Button>
+    <Grid Grid.Row="2">
+      <Grid.RowDefinitions>
+        <RowDefinition Height="*"></RowDefinition>
+        <RowDefinition Height="Auto"></RowDefinition>
+        <RowDefinition Height="*"></RowDefinition>
+      </Grid.RowDefinitions>
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="*"></ColumnDefinition>
+        <ColumnDefinition Width="*"></ColumnDefinition>
+        <ColumnDefinition Width="*"></ColumnDefinition>
+        <ColumnDefinition Width="*"></ColumnDefinition>
+        <ColumnDefinition Width="*"></ColumnDefinition>
+        <ColumnDefinition Width="*"></ColumnDefinition>
+        <ColumnDefinition Width="*"></ColumnDefinition>
+        <ColumnDefinition Width="*"></ColumnDefinition>
+      </Grid.ColumnDefinitions>
+      <Image Grid.Column="0" Name="X_Image_00" Stretch="Uniform" Margin="5 0"></Image>
+      <Image Grid.Column="1" Name="X_Image_01" Stretch="Uniform" Margin="5 0"></Image>
+      <Image Grid.Column="2" Name="X_Image_02" Stretch="Uniform" Margin="5 0"></Image>
+      <Image Grid.Column="3" Name="X_Image_03" Stretch="Uniform" Margin="5 0"></Image>
+      <Image Grid.Column="4" Name="X_Image_04" Stretch="Uniform" Margin="5 0"></Image>
+      <Image Grid.Column="5" Name="X_Image_05" Stretch="Uniform" Margin="5 0"></Image>
+      <Image Grid.Column="6" Name="X_Image_06" Stretch="Uniform" Margin="5 0"></Image>
+      <Image Grid.Column="7" Name="X_Image_07" Stretch="Uniform" Margin="5 0"></Image>
+
+      <Image Grid.Row="1" Grid.Column="0" Name="X_Image_10" Stretch="Uniform" Margin="5 0"></Image>
+      <Image Grid.Row="1" Grid.Column="1" Name="X_Image_11" Stretch="Uniform" Margin="5 0"></Image>
+      <Image Grid.Row="1" Grid.Column="2" Name="X_Image_12" Stretch="Uniform" Margin="5 0"></Image>
+      <Image Grid.Row="1" Grid.Column="3" Name="X_Image_13" Stretch="Uniform" Margin="5 0"></Image>
+      <Image Grid.Row="1" Grid.Column="4" Name="X_Image_14" Stretch="Uniform" Margin="5 0"></Image>
+      <Image Grid.Row="1" Grid.Column="5" Name="X_Image_15" Stretch="Uniform" Margin="5 0"></Image>
+      <Image Grid.Row="1" Grid.Column="6" Name="X_Image_16" Stretch="Uniform" Margin="5 0"></Image>
+      <Image Grid.Row="1" Grid.Column="7" Name="X_Image_17" Stretch="Uniform" Margin="5 0"></Image>
+      <Rectangle Name="X_SplitLine" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="6" Height="2" Fill="Black"></Rectangle>
+
+      <Image Grid.Row="2" Grid.Column="0" Name="X_Image_20" Stretch="Uniform" Margin="5 0"></Image>
+      <Image Grid.Row="2" Grid.Column="1" Name="X_Image_21" Stretch="Uniform" Margin="5 0"></Image>
+      <Image Grid.Row="2" Grid.Column="2" Name="X_Image_22" Stretch="Uniform" Margin="5 0"></Image>
+      <Image Grid.Row="2" Grid.Column="3" Name="X_Image_23" Stretch="Uniform" Margin="5 0"></Image>
+      <Image Grid.Row="2" Grid.Column="4" Name="X_Image_24" Stretch="Uniform" Margin="5 0"></Image>
+      <Image Grid.Row="2" Grid.Column="5" Name="X_Image_25" Stretch="Uniform" Margin="5 0"></Image>
+      <Image Grid.Row="2" Grid.Column="6" Name="X_Image_26" Stretch="Uniform" Margin="5 0"></Image>
+      <Image Grid.Row="2" Grid.Column="7" Name="X_Image_27" Stretch="Uniform" Margin="5 0"></Image>
+    </Grid>
+  </Grid>
+</Window>

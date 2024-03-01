@@ -1,0 +1,8 @@
+F:\CSharp\JosephusRingMagic\obj\Release\net4.0-windows7.0\JosephusRingMagic.csproj.AssemblyReference.cache
+F:\CSharp\JosephusRingMagic\obj\Release\net4.0-windows7.0\RegionSelector.baml
+F:\CSharp\JosephusRingMagic\obj\Release\net4.0-windows7.0\GenderSelector.g.cs
+F:\CSharp\JosephusRingMagic\obj\Release\net4.0-windows7.0\MainWindow.g.cs
+F:\CSharp\JosephusRingMagic\obj\Release\net4.0-windows7.0\RegionSelector.g.cs
+F:\CSharp\JosephusRingMagic\obj\Release\net4.0-windows7.0\App.g.cs
+F:\CSharp\JosephusRingMagic\obj\Release\net4.0-windows7.0\JosephusRingMagic_MarkupCompile.cache
+F:\CSharp\JosephusRingMagic\obj\Release\net4.0-windows7.0\JosephusRingMagic_MarkupCompile.lref

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "1zBnQCS5Bh5IeyZnC3Mj/NjbxmrKParbPfnmefIeOu5jBAQS//wi80vpc0uIsU7WeBuVahke6nTxXIjnzYcTqQ==",
+  "success": true,
+  "projectFilePath": "F:\\CSharp\\JosephusRingMagic\\JosephusRingMagic.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\16202\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.27\\microsoft.windowsdesktop.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\16202\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.27\\microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\16202\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.27\\microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\16202\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.27\\microsoft.netcore.app.host.win-x64.6.0.27.nupkg.sha512"
+  ],
+  "logs": []
+}
